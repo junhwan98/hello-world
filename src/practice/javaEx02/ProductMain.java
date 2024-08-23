@@ -1,4 +1,4 @@
-package javaEx02;
+package practice.javaEx02;
 
 public class ProductMain {
     public static void main(String[] args) {
