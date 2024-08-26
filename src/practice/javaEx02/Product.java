@@ -19,6 +19,7 @@ public class Product {
         this.inventory = inventory;
     }
 
+
     public int getProductNo() {
         return productNo;
     }
@@ -69,13 +70,12 @@ public class Product {
 
     @Override
     public String toString() {
-        return "Product{" +
-                "productNo=" + productNo +
-                ", productName='" + productName + '\'' +
-                ", price=" + price +
-                ", maker='" + maker + '\'' +
-                ", manufacturingDate='" + manufacturingDate + '\'' +
-                ", inventory=" + inventory +
-                '}';
+        return
+                "상품번호=" + productNo +
+                ",\n상품명=" + productName  +
+                ", \n가격=" + price +
+                ", \n제조회사=" + maker  +
+                ", \n제조일=" + manufacturingDate +
+                ", \n재고=" + inventory ;
     }
 }

@@ -2,7 +2,7 @@ package algorithm;
 
 import java.util.TreeSet;
 
-public class programmers001 {
+public class Programmers001 {
     public int[] solution(String[] operations) {
 
         int[] answer = {0,0};
