@@ -9,6 +9,7 @@ public double area(Shape shape){return 0;};
 class Circle extends Shape{
     int radius;
 
+
     public Circle(int radius){
         this.radius = radius;
     }
@@ -29,7 +30,7 @@ class Triangle extends Shape{
     @Override
     public double area(Shape triangle){
         System.out.print("삼각형의 넓이 : ");
-        return ((Triangle)triangle).height * ((Triangle)triangle).bottomSide /2;
+        return (double)((Triangle)triangle).height * ((Triangle)triangle).bottomSide /2;
     }
 }
 class Rectangle extends Shape{
